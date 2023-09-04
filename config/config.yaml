@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://www.kaggle.com/datasets/hydramst/cars-moldova
+  local_data_file: artifacts/data_ingestion/cars-moldova
+  data_file: artifacts/data_ingestion/cars-moldova/Data.csv
+
