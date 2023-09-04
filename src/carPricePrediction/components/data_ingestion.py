@@ -28,4 +28,4 @@ class DataIngestion:
             logger.info(f'Data is donwload! =======================>')
             os.chdir('../../')
         else:
-            logger.info(f"File already exist of size: {get_size(Path(self.confg.local_data_file))}")
+            logger.info(f"File already exist of size: {get_size(Path(self.config.local_data_file))}")

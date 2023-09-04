@@ -2,7 +2,8 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://www.kaggle.com/datasets/hydramst/cars-moldova
-  local_data_file: artifacts/data_ingestion/cars-moldova
-  data_file: artifacts/data_ingestion/cars-moldova/Data.csv
+  # source_URL: https://www.kaggle.com/datasets/hydramst/cars-moldova (the older data set and replacing it with a new one )
+  source_URL: https://www.kaggle.com/datasets/mayankpatel14/second-hand-used-cars-data-set-linear-regression
+  local_data_file: artifacts/data_ingestion/second-hand-used-cars-data-set-linear-regression
+  data_file: artifacts/data_ingestion/second-hand-used-cars-data-set-linear-regression/train.csv
 
